@@ -1,0 +1,13 @@
+function frankenSplice(arr1, arr2, n) {
+  // It's alive. It's alive!
+  let  h=arr2.slice();
+  for (let x= 0; x <arr1.length; x=x+1) {
+    h.splice(n, 0, arr1[x]);
+    n=n+1;
+  }
+  return h;
+}
+
+frankenSplice([1, 2, 3], [4, 5], 1);
+frankenSplice([1, 2], ["a", "b"], 1);
+frankenSplice(["claw", "tentacle"], ["head", "shoulders", "knees", "toes"], 2)
