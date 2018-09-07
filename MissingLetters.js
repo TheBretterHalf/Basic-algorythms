@@ -4,7 +4,7 @@ function fearNotLetter(string) {
   var letters = alphabet.split('')
   var str = string.split('')
   for (let i=0; i<alphabet.length; i++) {
-      if (letters[i]==str[i]){
+      if (letters[i]==str[0]){
           for (let j=0; j<string.length; j++){
               if (letters[i+j]==str[j]){
               } else {
@@ -14,11 +14,12 @@ function fearNotLetter(string) {
               }
           }
       } else {
+        
       }
   }
 }
 
-fearNotLetter("abcdeg");
+fearNotLetter("ghijkln");
 
 //pseudo
 //-get alphabet into single letters
