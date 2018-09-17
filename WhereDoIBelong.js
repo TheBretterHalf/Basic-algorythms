@@ -8,4 +8,4 @@ function getIndexToIns(arr, num) {
     }
 }
 
-getIndexToIns([40, 60, 70, 80], 50);
+getIndexToIns([40, 60, 70, 80, 90], 50);
