@@ -1,7 +1,7 @@
 function nextInLine(arr, item) {
   // Your code here
-
-  console.log(testArr);  // Change this line
+    arr=nextInLine.split([],5);
+  console.log(arr);  // Change this line
 }
 
 // Test Setup
