@@ -1,0 +1,1 @@
+//summing all primes
