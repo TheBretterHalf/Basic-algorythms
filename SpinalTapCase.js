@@ -3,10 +3,14 @@ function spinalCase(str) {
     for (let i=0; i<str.length; i++){
         if (newstr[i]==' '){
             newstr[i]='-'
+        } else if (newstr[i].toUpperCase()==newstr[i]){
+            newstr = newstr.push('-')
+        } else {
+            
         }
     }
-    let finalstr = newstr.join('')
-    console.log(finalstr)
+    let finalstr = newstr.join('').toLowerCase();
+    console.log(finalstr);
   return str;
 }
 
