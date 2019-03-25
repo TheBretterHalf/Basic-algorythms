@@ -1,19 +1,22 @@
 
 function fearNotLetter(string) {
-  var alphabet = 'abcdefghijklmnopqrstuvwxyz'
+  var alphabet = "abcdefghijklmnopqrstuvwxyz"
   var letters = alphabet.split('')
   var str = string.split('')
-  for (let i=0; i++; i<letters.length) {
-      if (letters[i]==str[0]){
-          for (let j=0; j++; j<str.length){
+  console.log(letters)
+  console.log(str)
+  for (let i=0; i++; i<alphabet.length) {
+      if (letters[i]==str[i]){
+          for (let j=0; j++; j<string.length){
+              console.log(str[j])
               if (letters[i+j]==str[j]){
-                  
               } else {
-                  console.log(letters[i+j])
+                  var result =(letters[i+j])
+                  console.log(result)
               }
           }
       } else {
-          alert ("Try Again")
+          console.log("Try Again")
       }
   }
 }
