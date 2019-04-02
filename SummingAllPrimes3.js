@@ -17,3 +17,9 @@ function isprime(num){
 isprime(15)
 //adad
 //collect all values
+
+// Formula for primes - Wikipedia
+// https://en.wikipedia.org/wiki/Formula_for_primes
+
+// Modular arithmetic - Wikipedia
+// https://en.wikipedia.org/wiki/Modular_arithmetic
