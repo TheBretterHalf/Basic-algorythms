@@ -3,14 +3,22 @@ function fearNotLetter(string) {
   var alphabet = "abcdefghijklmnopqrstuvwxyz"
   var letters = alphabet.split('')
   var str = string.split('')
-  console.log(letters)
-  console.log(str)
-  for (let i=0; i++; i<alphabet.length) {
-
+  for (let i=0; i<alphabet.length; i++) {
+      if (letters[i]==str[i]){
+          for (let j=0; j<string.length; j++){
+              if (letters[i+j]==str[j]){
+              } else {
+                  var result =(letters[i+j])
+                  console.log(result)
+                  return
+              }
+          }
+      } else {
+      }
   }
 }
 
-fearNotLetter("abce");
+fearNotLetter("abcdeg");
 
 //pseudo
 //-get alphabet into single letters
